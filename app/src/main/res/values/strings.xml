@@ -1,3 +1,55 @@
 <resources>
     <string name="app_name">Cashmere</string>
+
+    <string name="backpack">Backpack</string>
+    <string name="bathrobe">Bathrobe</string>
+    <string name="belt">Belt</string>
+    <string name="boots">Boots</string>
+    <string name="bow_tie">Bow Tie</string>
+    <string name="bowler_hat">Bowler Hat</string>
+    <string name="boxers">Boxers</string>
+    <string name="bra">Bra</string>
+    <string name="cap">Cap</string>
+    <string name="dress_1">Dress #1</string>
+    <string name="dress_2">Dress #2</string>
+    <string name="dress_3">Dress #3</string>
+    <string name="dress_4">Dress #4</string>
+    <string name="glasses">Glasses</string>
+    <string name="hat">Hat</string>
+    <string name="high_heels">High Heels</string>
+    <string name="jacket_1">Jacket #1</string>
+    <string name="jacket_2">Jacket #2</string>
+    <string name="jacket_3">Jacket #3</string>
+    <string name="jacket_4">Jacket #4</string>
+    <string name="jeans">Jeans</string>
+    <string name="lingerie">Lingerie</string>
+    <string name="overall">Overall</string>
+    <string name="polo">Polo</string>
+    <string name="pullover">Pullover</string>
+    <string name="purse_1">Purse #1</string>
+    <string name="purse_2">Purse #2</string>
+    <string name="scarf">Scarf</string>
+    <string name="shirt_1">Shirt #1</string>
+    <string name="shirt_2">Shirt #2</string>
+    <string name="shirt_3">Shirt #3</string>
+    <string name="shoes">Shoes</string>
+    <string name="shorts">Shorts</string>
+    <string name="skirt">Skirt</string>
+    <string name="sleeveless">Sleeveless</string>
+    <string name="slippers">Slippers</string>
+    <string name="sneakers_1">Sneakers #1</string>
+    <string name="sneakers_2">Sneakers #2</string>
+    <string name="socks">Socks</string>
+    <string name="suitcase">Suitcase</string>
+    <string name="sweatshirt">Sweatshirt</string>
+    <string name="swimsuit_1">Swimsuit #1</string>
+    <string name="swimsuit_2">Swimsuit #2</string>
+    <string name="tie">Tie</string>
+    <string name="trench_coat_1">Trench Coat #1</string>
+    <string name="trench_coat_2">Trench Coat #2</string>
+    <string name="trousers">Trousers</string>
+    <string name="underpants">Underpants</string>
+    <string name="vest">Vest</string>
+    <string name="winter_hat">Winter Hat</string>
+
 </resources>

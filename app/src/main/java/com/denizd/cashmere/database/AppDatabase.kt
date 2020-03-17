@@ -4,8 +4,12 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
+import com.denizd.cashmere.model.Category
+import com.denizd.cashmere.model.Clothing
+import com.denizd.cashmere.model.ClothingOutfitRelation
+import com.denizd.cashmere.model.Outfit
 
-@Database(entities = [], version = 1)
+@Database(entities = [Category::class, Clothing::class, ClothingOutfitRelation::class, Outfit::class], version = 1)
 abstract class AppDatabase : RoomDatabase() {
 
     abstract fun dao(): AppDao

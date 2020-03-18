@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <color name="colorPrimary">#321911</color>
+    <color name="colorPrimaryDark">#1b0000</color>
+    <color name="colorAccent">#a1887f</color>
+    <color name="colorBackground">#121212</color>
+    <color name="colorOnLight">#e0e0e0</color> <!-- colorOnDark for dark mode -->
+    <color name="colorOnDark">#757575</color> <!-- colorOnLight for dark mode -->
+    <color name="colorOnPrimary">@color/colorOnLight</color>
+    <color name="strokeColor">#424242</color>
+    <color name="colorHint">#9e9e9e</color>
+    <color name="colorWarning">#cf6679</color>
 </resources>

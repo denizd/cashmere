@@ -2,4 +2,7 @@
 <resources>
     <attr name="colorOnLight" format="color"/>
     <attr name="colorOnDark" format="color"/>
+    <attr name="colorBackground" format="color"/>
+    <attr name="colorHint" format="color"/>
+    <attr name="colorWarning" format="color"/>
 </resources>

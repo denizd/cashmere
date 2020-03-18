@@ -22,6 +22,6 @@ import androidx.room.ForeignKey
     ]
 )
 data class ClothingOutfitRelation(
-    @ColumnInfo(name = "clothing_id") val clothingId: Int,
-    @ColumnInfo(name = "outfit_id") val outfitId: Int
+    @ColumnInfo(name = "clothing_id") val clothingId: Long,
+    @ColumnInfo(name = "outfit_id") val outfitId: Long
 )

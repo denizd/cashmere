@@ -19,6 +19,6 @@ import androidx.room.PrimaryKey
 data class Clothing(
     val name: String,
     @ColumnInfo(name = "image_uri") val imageUri: String,
-    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "clothing_id") val clothingId: Int,
-    @ColumnInfo(name = "category_id") val categoryId: Int
+    @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "clothing_id") val clothingId: Long,
+    @ColumnInfo(name = "category_id") val categoryId: Long
 )

@@ -4,8 +4,72 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorBackground">@color/colorBackground</item>
         <item name="colorOnLight">@color/colorOnLight</item>
         <item name="colorOnDark">@color/colorOnDark</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+        <item name="colorHint">@color/colorHint</item>
+        <item name="colorWarning">@color/colorWarning</item>
+        <item name="android:fontFamily">@font/manrope_regular</item>
+        <item name="android:textColor">@color/colorOnLight</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeSmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeMediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeLargeComponent</item>3
+    </style>
+
+    <style name="MaterialTextInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="strokeColor">@color/strokeColor</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="boxCornerRadiusTopStart">?attr/cornerRadius</item>
+        <item name="boxCornerRadiusTopEnd">?attr/cornerRadius</item>
+        <item name="boxCornerRadiusBottomStart">?attr/cornerRadius</item>
+        <item name="boxCornerRadiusBottomEnd">?attr/cornerRadius</item>
+    </style>
+
+    <style name="MaterialCardView" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">?attr/colorBackground</item>
+        <item name="strokeColor">@color/strokeColor</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cardCornerRadius">?attr/cornerRadius</item>
+        <item name="cardElevation">0dp</item>
+    </style>
+
+    <style name="MaterialOutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="strokeColor">@color/strokeColor</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">?attr/cornerRadius</item>
+        <item name="rippleColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="WindowAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="SelectableItemTheme">
+        <item name="colorControlHighlight">@color/colorPrimary</item>
+    </style>
+
+    <style name="SelectableItemBackground">
+        <item name="android:theme">@style/SelectableItemTheme</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="ShapeSmallComponent" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">?attr/cornerRadius</item>
+    </style>
+
+
+    <style name="ShapeMediumComponent" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">?attr/cornerRadius</item>
+    </style>
+
+    <style name="ShapeLargeComponent" parent="ShapeAppearance.MaterialComponents.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">?attr/cornerRadius</item>
     </style>
 
 </resources>

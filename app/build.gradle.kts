@@ -50,6 +50,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-common-java8:$lifecycleVersion")
     implementation("androidx.lifecycle:lifecycle-extensions:$lifecycleVersion")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
+    implementation("androidx.preference:preference-ktx:1.1.0")
     implementation("androidx.recyclerview:recyclerview:1.1.0")
     val roomVersion = "2.2.3"
     implementation("androidx.room:room-runtime:2.2.3")

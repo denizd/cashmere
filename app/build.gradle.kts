@@ -50,6 +50,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-common-java8:$lifecycleVersion")
     implementation("androidx.lifecycle:lifecycle-extensions:$lifecycleVersion")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0")
+    implementation("androidx.paging:paging-runtime-ktx:2.1.2")
     implementation("androidx.preference:preference-ktx:1.1.0")
     implementation("androidx.recyclerview:recyclerview:1.1.0")
     val roomVersion = "2.2.3"
@@ -57,6 +58,7 @@ dependencies {
     kapt("androidx.room:room-compiler:$roomVersion")
 
     implementation("com.google.android.material:material:1.2.0-alpha05")
+    implementation("com.squareup.picasso:picasso:2.71828")
 
     testImplementation("junit:junit:4.12")
     androidTestImplementation("androidx.test.ext:junit:1.1.1")

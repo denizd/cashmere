@@ -5,4 +5,6 @@
     <attr name="colorBackground" format="color"/>
     <attr name="colorHint" format="color"/>
     <attr name="colorWarning" format="color"/>
+    <attr name="colorStroke" format="color"/>
+    <bool name="isTablet">false</bool>
 </resources>

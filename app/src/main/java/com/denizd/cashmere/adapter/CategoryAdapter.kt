@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.denizd.cashmere.databinding.ItemCategoryBinding
 import com.denizd.cashmere.model.Category
+import com.denizd.cashmere.util.ClothingDrawable
 
 class CategoryAdapter(private var categories: List<Category>) : RecyclerView.Adapter<CategoryAdapter.CategoryViewHolder>() {
 
@@ -34,7 +35,10 @@ class CategoryAdapter(private var categories: List<Category>) : RecyclerView.Ada
     override fun onBindViewHolder(holder: CategoryViewHolder, position: Int) {
         categories[position].also { currentItem ->
             holder.binding.apply {
-
+                imageView.setImageDrawable(imageView.context.getDrawable(
+                    ClothingDrawable.valueOf(currentItem.drawableName).drawableId
+                ))
+                categoryNameText.text = currentItem.name
             }
         }
     }

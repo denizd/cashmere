@@ -51,19 +51,39 @@
     <string name="swimsuit_1">Swimsuit #1</string>
     <string name="swimsuit_2">Swimsuit #2</string>
     <string name="tie">Tie</string>
-    <string name="trench_coat_1">Trench Coat #1</string>
-    <string name="trench_coat_2">Trench Coat #2</string>
+    <string name="trench_coat">Trench Coat</string>
     <string name="trousers">Trousers</string>
     <string name="underpants">Underpants</string>
     <string name="vest">Vest</string>
     <string name="winter_hat">Winter Hat</string>
 
+    <string name="all_weather">All-Weather</string>
+    <string name="freezing">Freezing</string>
+    <string name="cold">Cold</string>
+    <string name="normal">Normal</string>
+    <string name="warm">Warm</string>
+    <string name="hot">Hot</string>
+
 <!--    HomeFragment.kt-->
     <string name="todays_outfit">Your Outfit for Today</string>
+
+<!--    ClothingFragment.kt-->
+    <string name="add_clothing">Add Clothing</string>
+    <string name="category">Category</string>
+    <string name="brand">Brand</string>
+    <string name="colour">Colour</string>
+    <string name="size">Size</string>
+    <string name="temperature_rating">Temperature rating</string>
+    <string name="note">Note</string>
+    <string name="choose_image">Choose image</string>
+    <string name="no_category_selected">You must select a category</string>
 
 <!--    SettingsFragment.kt-->
     <string name="view_categories_title">View categories</string>
     <string name="view_categories_desc">For clothing articles</string>
     <string name="clothing_categories">Clothing Categories</string>
+    <string name="add_clothing_category">Add Clothing Category</string>
+    <string name="no_name_entered">You must enter a name</string>
+    <string name="no_icon_selected">You must pick an icon</string>
 
 </resources>
